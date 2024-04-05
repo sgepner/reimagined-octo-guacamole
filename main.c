@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+int foo(int a)
+{
+	return 0;
+}
+
 int main()
 {
 	printf("Hello!\n");
@@ -9,5 +14,4 @@ int main()
 	double c = 3.141592;
 	printf("%d\n", a);
 	printf("%lf\n", c);
-
 }
