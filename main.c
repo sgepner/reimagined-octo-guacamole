@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+void bar(int &p)
+{
+	*p = 0;
+}
+
 int main()
 {
 	printf("Hello!\n");
